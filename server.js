@@ -37,7 +37,7 @@ app.get('/technology', function(req, res) {
 });
 
 app.get('/technology/whitepapers', function(req, res) {
-  res.render('whitepapers', {isWhitepapersPage: true});
+  res.render('technology-whitepapers', {isWhitepapersPage: true});
 });
 
 app.get('/newsroom', function(req, res) {
