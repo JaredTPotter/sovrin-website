@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JaredTPotter/sovrin-website/issues"
   },
-  "homepage": "https://github.com/JaredTPotter/sovrin-website#readme"
+  "homepage": "https://github.com/JaredTPotter/sovrin-website#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
 }
