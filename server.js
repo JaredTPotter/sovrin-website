@@ -36,10 +36,12 @@ app.get('/technology', function(req, res) {
   res.render('technology', {isTechnologyPage: true});
 });
 
-// press?
+app.get('/technology/whitepapers', function(req, res) {
+  res.render('whitepapers', {isWhitepapersPage: true});
+});
 
-app.get('/news', function(req, res) {
-  res.render('news', {isNewsPage: true});
+app.get('/newsroom', function(req, res) {
+  res.render('newsroom', {isNewsroomPage: true});
 });
 
 app.get('/contact', function(req, res) {
