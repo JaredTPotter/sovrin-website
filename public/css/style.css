@@ -1,11 +1,24 @@
 /* DEFAULT */
 
+html, body {
+  font-family: 'open_sanslight', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.045em;
+}
+
 p {
   line-height: 39px;
 }
 
 a {
   text-decoration: none;
+}
+
+/* BUTTON */
+
+.button-full {
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
 .button-blue {
@@ -21,6 +34,18 @@ a {
 }
 
 
+.page-container {
+  padding-top: 75px;
+}
+
+.container-fluid {
+  padding-right: 0; 
+  padding-left: 0; 
+}
+
+.logo-large {
+  height: 99px;
+}
 
 /* NAVIGATION */
 
@@ -79,6 +104,12 @@ a {
   }
 
 
+/* HERO CONTAINERS */
+
 .hero-container {
   padding: 60px 0;
+}
+
+.hero-container.light * {
+  color: #FFFFFF;
 }
