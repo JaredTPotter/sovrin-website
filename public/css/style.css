@@ -1,1 +1,84 @@
-/* Custom CSS can go here */
+/* DEFAULT */
+
+p {
+  line-height: 39px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-blue {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #00639E;
+  padding: 6px 15px;
+}
+
+.button-blue:hover {
+  color: #00639E;
+  background-color: #FFFFFF;
+}
+
+
+
+/* NAVIGATION */
+
+.nav-container {
+  height: 75px;
+  background-color: #232323;
+}
+
+  .nav-container .logo-tagline {
+    padding: 17px 0 0 10px;
+  }
+
+.navbar-collapse {
+  background-color: #232323;
+}
+
+.navbar-nav {
+  padding: 21px 0;
+}
+
+.navbar-brand {
+  height: 75px;
+}
+
+  .navbar-brand img {
+    float: left;
+  }
+
+  .navbar-brand .logo-tagline {
+    padding-left: 20px;
+    padding-bottom: 2px;
+  }
+
+.navbar-collapse {
+  padding: 0;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 21px;
+}
+
+  .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+  }
+
+.nav li a {
+  color: #FFFFFF;
+  border-radius: 0;
+  padding: 6px 15px;
+}
+
+  .nav li a:hover {
+    color: #00639E;
+    background-color: transparent;
+  }
+
+
+.hero-container {
+  padding: 60px 0;
+}
