@@ -9,7 +9,7 @@ p {
   line-height: 39px;
 }
 
-a {
+a, a:hover {
   text-decoration: none;
 }
 
@@ -41,6 +41,13 @@ a {
 .container-fluid {
   padding-right: 0; 
   padding-left: 0; 
+}
+
+.center-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
 }
 
 .logo-large {
@@ -110,6 +117,6 @@ a {
   padding: 60px 0;
 }
 
-.hero-container.light * {
+.hero-container.light *:not(a) {
   color: #FFFFFF;
 }
