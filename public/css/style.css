@@ -119,6 +119,10 @@ a, a:hover {
   padding: 60px 0;
 }
 
+.hero-container>h2 {
+  margin-top: 0;
+}
+
 .hero-container.light *:not(a) {
   color: #FFFFFF;
 }
