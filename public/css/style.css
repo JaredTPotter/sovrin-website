@@ -100,6 +100,10 @@ a, a:hover {
     background-color: #FFFFFF;
   }
 
+.nav li {
+  margin: 0 1px;
+}
+
 .nav li a {
   color: #FFFFFF;
   border-radius: 0;
@@ -144,6 +148,10 @@ a, a:hover {
 }
 
 /* FOOTER */
+
+.footer-container {
+  margin-top: 50px;
+}
 
 .footer-container a {
   color: #232323;
