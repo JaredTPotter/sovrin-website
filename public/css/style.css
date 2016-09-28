@@ -29,8 +29,8 @@ a, a:hover {
 }
 
 .button-blue:hover {
-  color: #00639E;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #EB920D;
 }
 
 
@@ -105,9 +105,10 @@ a, a:hover {
   padding: 6px 15px;
 }
 
+  .nav li a.active,
   .nav li a:hover {
-    color: #00639E;
-    background-color: transparent;
+    color: #FFFFFF;
+    background-color: #EB920D;
   }
 
 
