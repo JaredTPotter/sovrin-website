@@ -124,5 +124,17 @@ a, a:hover {
 }
 
 .container-bios {
-  display: table-cell;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  width:32%;
+  margin-bottom: 60px;
+}
+
+.container-lightblue {
+  background-color: #E4EBEE;
+}
+
+.container-lightorange {
+  background-color: #FAE4C6;
 }
