@@ -142,3 +142,14 @@ a, a:hover {
 .container-lightorange {
   background-color: #FAE4C6;
 }
+
+/* FOOTER */
+
+.footer-container a {
+  color: #232323;
+}
+
+.footer-container h4 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
