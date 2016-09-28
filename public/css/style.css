@@ -144,6 +144,18 @@ a, a:hover {
   margin-bottom: 60px;
 }
 
+@media (max-width: 991px) {
+  .container-bios {
+    width:49%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-bios {
+    width:100%;
+  }
+}
+
 .container-lightblue {
   background-color: #E4EBEE;
 }
