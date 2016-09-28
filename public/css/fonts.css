@@ -34,3 +34,20 @@
 
 }
 
+*, td, p {
+    color: #666666;
+    font-family: open_sansregular;
+}
+
+h1, h2 {
+    font-family: open_sanslight;
+    color:#444444
+}
+
+h3, h4 {
+    font-family: open_sansbold;
+    color:#444444
+}
+
+
+
