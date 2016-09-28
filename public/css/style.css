@@ -126,3 +126,9 @@ a, a:hover {
 .container-bios {
   display: table-cell;
 }
+
+/* FOOTER */
+
+.footer-container a {
+  color: #232323;
+}
