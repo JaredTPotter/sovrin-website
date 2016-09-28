@@ -13,6 +13,11 @@ a, a:hover {
   text-decoration: none;
 }
 
+.profile-picture {
+  max-width: 100%;
+  padding: 15%;
+}
+
 /* BUTTON */
 
 .button-full {
