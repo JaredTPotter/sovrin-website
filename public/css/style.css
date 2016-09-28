@@ -148,3 +148,8 @@ a, a:hover {
 .footer-container a {
   color: #232323;
 }
+
+.footer-container h4 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
