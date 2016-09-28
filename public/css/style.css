@@ -119,12 +119,28 @@ a, a:hover {
   padding: 60px 0;
 }
 
+.hero-container>h2 {
+  margin-top: 0;
+}
+
 .hero-container.light *:not(a) {
   color: #FFFFFF;
 }
 
 .container-bios {
-  display: table-cell;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  width:32%;
+  margin-bottom: 60px;
+}
+
+.container-lightblue {
+  background-color: #E4EBEE;
+}
+
+.container-lightorange {
+  background-color: #FAE4C6;
 }
 
 /* FOOTER */
