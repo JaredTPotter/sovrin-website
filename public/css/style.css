@@ -178,3 +178,9 @@ a, a:hover {
   margin-top: 5px;
   margin-bottom: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    margin: 7.5px 0;
+  }
+}
