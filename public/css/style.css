@@ -121,3 +121,7 @@ a, a:hover {
 .hero-container.light *:not(a) {
   color: #FFFFFF;
 }
+
+.container-bios {
+  display: table-cell;
+}
