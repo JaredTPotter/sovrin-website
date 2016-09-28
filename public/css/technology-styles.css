@@ -2,7 +2,11 @@
     background-color: #E0E8EC;
 }
 
-.container-blue-dark {
-    background-color: #005796;
-    color: #fff;
+.container-grey {
+    background-color: #E4EBEE;
+}
+
+.tech-icon {
+    max-width: 100%;
+    max-height: 350px;
 }
