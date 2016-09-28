@@ -75,6 +75,7 @@ a, a:hover {
 
 .navbar-brand {
   height: 75px;
+  padding: 19px 15px;
 }
 
   .navbar-brand img {

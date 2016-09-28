@@ -40,8 +40,8 @@ app.get('/technology/whitepapers', function(req, res) {
   res.render('technology-whitepapers', {isWhitepapersPage: true});
 });
 
-app.get('/newsroom', function(req, res) {
-  res.render('newsroom', {isNewsroomPage: true});
+app.get('/docs', function(req, res) {
+  res.render('docs', {isDocsPage: true});
 });
 
 app.get('/contact', function(req, res) {
